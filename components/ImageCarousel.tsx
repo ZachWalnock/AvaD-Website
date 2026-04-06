@@ -50,7 +50,7 @@ export default function ImageCarousel({ images, placeholder }: ImageCarouselProp
       {/* Prev / Next buttons */}
       <button
         onClick={scrollPrev}
-        className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm shadow flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-white"
+        className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm shadow flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 hover:bg-white"
         aria-label="Previous slide"
       >
         <svg className="w-4 h-4 text-dark" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ export default function ImageCarousel({ images, placeholder }: ImageCarouselProp
       </button>
       <button
         onClick={scrollNext}
-        className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm shadow flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-white"
+        className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm shadow flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 hover:bg-white"
         aria-label="Next slide"
       >
         <svg className="w-4 h-4 text-dark" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">

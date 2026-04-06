@@ -31,12 +31,12 @@ export default function Contact() {
   return (
     <div className="pt-16">
       {/* ── Header ── */}
-      <section className="bg-dark text-white py-24">
+      <section className="bg-dark text-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4">
             Get In Touch
           </p>
-          <h1 className="font-serif text-6xl md:text-7xl font-bold">
+          <h1 className="font-serif text-5xl md:text-7xl font-bold">
             Contact Me
           </h1>
           <div className="mt-6 w-24 h-1 bg-pink rounded-full" />
@@ -44,8 +44,8 @@ export default function Contact() {
       </section>
 
       {/* ── Contact Body ── */}
-      <section className="bg-cream py-24">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+      <section className="bg-cream py-14 md:py-24">
+        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 md:gap-16">
           {/* Left — Info */}
           <div>
             <h2 className="font-serif text-3xl font-bold mb-6">
@@ -99,7 +99,7 @@ export default function Contact() {
           </div>
 
           {/* Right — Form */}
-          <div className="bg-white rounded-2xl p-8 shadow-sm">
+          <div className="bg-white rounded-2xl p-5 md:p-8 shadow-sm">
             {submitted ? (
               <div className="h-full flex flex-col items-center justify-center gap-4 text-center py-12">
                 <div className="w-16 h-16 rounded-full bg-pink-light flex items-center justify-center">

@@ -7,12 +7,12 @@ export default function WorkHighlights() {
   return (
     <div className="pt-16">
       {/* ── Page Header ── */}
-      <section className="bg-dark text-white py-24">
+      <section className="bg-dark text-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4">
             Portfolio
           </p>
-          <h1 className="font-serif text-6xl md:text-7xl font-bold">
+          <h1 className="font-serif text-4xl md:text-7xl font-bold">
             Work Highlights
           </h1>
           <div className="mt-6 w-24 h-1 bg-pink rounded-full" />
@@ -20,9 +20,9 @@ export default function WorkHighlights() {
       </section>
 
       {/* ── Case Study 1 — Social Media Creations ── */}
-      <section className="bg-cream py-24">
+      <section className="bg-cream py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <ImageCarousel
               images={[
                 { src: "/carousel-a/photo-1.png", alt: "Social media creation 1" },
@@ -65,9 +65,9 @@ export default function WorkHighlights() {
       </section>
 
       {/* ── Case Study 2 ── */}
-      <section className="bg-pink-light py-24">
+      <section className="bg-pink-light py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <div className="md:order-2">
               <ImageCarousel
                 images={[
@@ -111,9 +111,9 @@ export default function WorkHighlights() {
       </section>
 
       {/* ── Case Study 3 — Brand Partnerships ── */}
-      <section className="bg-dark text-white py-24">
+      <section className="bg-dark text-white py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <ImageCarousel
               images={[
                 { src: "/instagram-profile.jpg", alt: "Ostrich brand social media content" },
@@ -154,9 +154,9 @@ export default function WorkHighlights() {
       </section>
 
       {/* ── Connect Row ── */}
-      <section className="bg-cream py-20">
+      <section className="bg-cream py-14 md:py-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl font-bold text-center mb-12">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">
             I love meeting new people passionate about marketing, let&apos;s connect!
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

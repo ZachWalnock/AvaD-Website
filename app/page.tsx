@@ -8,12 +8,12 @@ export default function Home() {
     <div className="pt-16">
       {/* ── Hero ── */}
       <section className="bg-cream text-dark">
-        <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto px-6 py-10 md:py-16 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4">
               Marketing Portfolio
             </p>
-            <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-bold leading-none mb-6">
+            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-6">
               Ava<br />
               D&apos;Alessandro
             </h1>
@@ -46,8 +46,8 @@ export default function Home() {
       </section>
 
       {/* ── Bio ── */}
-      <section className="bg-pink py-24">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <section className="bg-pink py-14 md:py-24">
+        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           <div>
             <p className="text-white/70 text-sm font-semibold tracking-[0.3em] uppercase mb-4">
               About Me
@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* ── My Passion ── */}
-      <section className="bg-cream py-24">
+      <section className="bg-cream py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
             My Passion
@@ -86,7 +86,7 @@ export default function Home() {
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-center mb-8">
             Penn State AMA
           </h2>
-          <p className="text-dark/70 text-lg leading-relaxed text-center max-w-3xl mx-auto mb-16">
+          <p className="text-dark/70 text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 md:mb-16">
             As President of the Penn State American Marketing Association (PSAMA), Ava leads one of
             Penn State&apos;s most dynamic student organizations — driving creative campaigns, fostering
             industry connections, and building a thriving community of passionate marketers. From
@@ -111,15 +111,15 @@ export default function Home() {
       </section>
 
       {/* ── Video Reel CTA ── */}
-      <section className="bg-dark py-24">
+      <section className="bg-dark py-14 md:py-24">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
             I&apos;d love to show you what I've done!
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-white text-center mb-12">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-white text-center mb-8 md:mb-12">
             Watch My Work
           </h2>
-          <div className="relative w-full h-[32rem] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-56 md:h-[32rem] rounded-2xl overflow-hidden">
             <Image
               src="/White_Shirt_Photo.jpg"
               alt="Campaign photo"

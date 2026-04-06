@@ -97,13 +97,13 @@ export default function Resume() {
   return (
     <div className="pt-16">
       {/* ── Header ── */}
-      <section className="bg-dark text-white py-24">
+      <section className="bg-dark text-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4">
               Credentials
             </p>
-            <h1 className="font-serif text-6xl md:text-7xl font-bold">
+            <h1 className="font-serif text-5xl md:text-7xl font-bold">
               Resume
             </h1>
             <div className="mt-6 w-24 h-1 bg-pink rounded-full" />
@@ -122,10 +122,10 @@ export default function Resume() {
       </section>
 
       {/* ── Education ── */}
-      <section className="bg-pink-light py-16">
+      <section className="bg-pink-light py-10 md:py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl font-bold mb-8">Education</h2>
-          <div className="bg-white rounded-2xl p-8 shadow-sm flex flex-col md:flex-row justify-between gap-6">
+          <h2 className="font-serif text-3xl font-bold mb-6 md:mb-8">Education</h2>
+          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm flex flex-col md:flex-row justify-between gap-6">
             <div>
               <h3 className="font-serif text-xl font-bold">
                 The Pennsylvania State University
@@ -149,9 +149,9 @@ export default function Resume() {
       </section>
 
       {/* ── Work Experience ── */}
-      <section className="bg-cream py-24">
+      <section className="bg-cream py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl font-bold mb-12">Work Experience</h2>
+          <h2 className="font-serif text-3xl font-bold mb-8 md:mb-12">Work Experience</h2>
           <div className="relative">
             <div className="absolute left-0 top-0 bottom-0 w-px bg-pink/20 hidden md:block ml-5" />
             <div className="flex flex-col gap-12">
@@ -160,7 +160,7 @@ export default function Resume() {
                   <div className="absolute left-0 top-1 w-10 h-10 rounded-full bg-pink text-white items-center justify-center text-sm font-bold hidden md:flex">
                     {String(i + 1).padStart(2, "0")}
                   </div>
-                  <div className="bg-white rounded-2xl p-8 shadow-sm">
+                  <div className="bg-white rounded-2xl p-5 md:p-8 shadow-sm">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-6">
                       <div>
                         <h3 className="font-serif text-xl font-bold">{job.company}</h3>
@@ -205,9 +205,9 @@ export default function Resume() {
       </section>
 
       {/* ── Leadership Experience ── */}
-      <section className="bg-pink-light py-24">
+      <section className="bg-pink-light py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl font-bold mb-12">Leadership Experience</h2>
+          <h2 className="font-serif text-3xl font-bold mb-8 md:mb-12">Leadership Experience</h2>
           <div className="relative">
             <div className="absolute left-0 top-0 bottom-0 w-px bg-pink/30 hidden md:block ml-5" />
             <div className="flex flex-col gap-12">
@@ -216,7 +216,7 @@ export default function Resume() {
                   <div className="absolute left-0 top-1 w-10 h-10 rounded-full bg-pink text-white items-center justify-center text-sm font-bold hidden md:flex">
                     {String(i + 1).padStart(2, "0")}
                   </div>
-                  <div className="bg-white rounded-2xl p-8 shadow-sm">
+                  <div className="bg-white rounded-2xl p-5 md:p-8 shadow-sm">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-6">
                       <div>
                         <h3 className="font-serif text-xl font-bold">{job.company}</h3>
@@ -261,9 +261,9 @@ export default function Resume() {
       </section>
 
       {/* ── Skills & Awards ── */}
-      <section className="bg-dark text-white py-24">
+      <section className="bg-dark text-white py-14 md:py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16">
             <div>
               <h2 className="font-serif text-3xl font-bold mb-8">Skills &amp; Tools</h2>
               <div className="flex flex-wrap gap-3">
