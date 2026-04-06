@@ -14,7 +14,7 @@ export default function Home() {
             </p>
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-6">
               Ava<br />
-              D'Alessandro
+              D&apos;Alessandro
             </h1>
             <p className="text-dark/60 text-xl md:text-2xl font-light mb-10 leading-relaxed">
               Where Strategy Meets Creativity
@@ -52,17 +52,17 @@ export default function Home() {
               About Me
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
-              Hi! I'm Ava.
+              Hi! I&apos;m Ava.
             </h2>
             <p className="text-white/80 text-lg leading-relaxed mb-6">
-              I'm a Marketing student and the President of PSAMA at Penn State with a passion for building
+              I&apos;m a Marketing student and the President of PSAMA at Penn State with a passion for building
               brands and creative campaigns that connect people through
               powerful storytelling.
             </p>
             <p className="text-white/80 text-lg leading-relaxed">
-              I'd love for you to learn more about the work Ive done —
-              partnerships I've closed, campaigns that have driven results,
-              and events I've helped bring to life.
+              I&apos;d love for you to learn more about the work I&apos;ve done —
+              partnerships I&apos;ve closed, campaigns that have driven results,
+              and events I&apos;ve helped bring to life.
             </p>
           </div>
           <div className="relative w-full h-80 rounded-2xl overflow-hidden">
@@ -87,7 +87,7 @@ export default function Home() {
           </h2>
           <p className="text-dark/70 text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 md:mb-16">
             As President of the Penn State American Marketing Association (PSAMA), I lead one of
-            Penn State's most dynamic student organizations. Driving creative campaigns, fostering
+            Penn State&apos;s most dynamic student organizations. Driving creative campaigns, fostering
             industry connections, and building a thriving community of passionate marketers. From
             large-scale events to social content that resonates, PSAMA is where my love for
             marketing comes to life.
@@ -113,7 +113,7 @@ export default function Home() {
       <section className="bg-dark py-14 md:py-24">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
-            I'd love to show you what I've done!
+            I&apos;d love to show you what I&apos;ve done!
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white text-center mb-8 md:mb-12">
             Watch My Work
