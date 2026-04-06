@@ -25,9 +25,9 @@ export default function WorkHighlights() {
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             <ImageCarousel
               images={[
-                { src: "/carousel-a/photo-1.png", alt: "Social media creation 1" },
-                { src: "/carousel-a/photo-2.png", alt: "Social media creation 2" },
-                { src: "/carousel-a/photo-3.png", alt: "Social media creation 3" },
+                { src: "/carousel-a/photo-1.webp", alt: "Social media creation 1" },
+                { src: "/carousel-a/photo-2.webp", alt: "Social media creation 2" },
+                { src: "/carousel-a/photo-3.webp", alt: "Social media creation 3" },
               ]}
             />
             <div>
@@ -71,9 +71,9 @@ export default function WorkHighlights() {
             <div className="md:order-2">
               <ImageCarousel
                 images={[
-                  { src: "/carousel-b/photo-1.png", alt: "Photoshoot direction behind the scenes 1" },
-                  { src: "/carousel-b/photo-2.png", alt: "Photoshoot direction behind the scenes 2" },
-                  { src: "/carousel-b/photo-3.png", alt: "Photoshoot direction behind the scenes 3" },
+                  { src: "/carousel-b/photo-1.webp", alt: "Photoshoot direction behind the scenes 1" },
+                  { src: "/carousel-b/photo-2.webp", alt: "Photoshoot direction behind the scenes 2" },
+                  { src: "/carousel-b/photo-3.webp", alt: "Photoshoot direction behind the scenes 3" },
                 ]}
               />
             </div>

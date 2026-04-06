@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div className="relative w-full h-80 rounded-2xl overflow-hidden">
             <Image
-              src="/PSAMA_AVA.jpeg"
+              src="/PSAMA_AVA.webp"
               alt="Ava D'Alessandro"
               fill
               className="object-cover"
@@ -121,7 +121,7 @@ export default function Home() {
           </h2>
           <div className="relative w-full h-56 md:h-[32rem] rounded-2xl overflow-hidden">
             <Image
-              src="/White_Shirt_Photo.jpg"
+              src="/White_Shirt_Photo.webp"
               alt="Campaign photo"
               fill
               className="object-cover"
