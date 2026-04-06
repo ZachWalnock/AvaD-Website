@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import VideoPlaceholder from "@/components/VideoPlaceholder";
 import InstagramReel from "@/components/InstagramReel";
 
 export default function Home() {
@@ -114,7 +113,7 @@ export default function Home() {
       <section className="bg-dark py-14 md:py-24">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
-            I&apos;d love to show you what I've done!
+            I&apos;d love to show you what I&apos;ve done!
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white text-center mb-8 md:mb-12">
             Watch My Work

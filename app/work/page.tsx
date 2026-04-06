@@ -1,6 +1,4 @@
-import VideoPlaceholder from "@/components/VideoPlaceholder";
 import ImageCarousel from "@/components/ImageCarousel";
-import EmbedCarousel from "@/components/EmbedCarousel";
 import Link from "next/link";
 
 export default function WorkHighlights() {
