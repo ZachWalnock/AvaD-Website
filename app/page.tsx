@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import VideoPlaceholder from "@/components/VideoPlaceholder";
+import InstagramReel from "@/components/InstagramReel";
 
 export default function Home() {
   return (
@@ -55,8 +56,8 @@ export default function Home() {
               Hi! I&apos;m Ava.
             </h2>
             <p className="text-white/80 text-lg leading-relaxed mb-6">
-              I&apos;m a Communications &amp; Marketing student with a passion for building
-              brands, creating campaigns that convert, and connecting people through
+              I&apos;m a Marketing student and the President of PSAMA at Penn State with a passion for building
+              brands and creative campaigns that connect people through
               powerful storytelling.
             </p>
             <p className="text-white/80 text-lg leading-relaxed">
@@ -67,8 +68,8 @@ export default function Home() {
           </div>
           <div className="relative w-full h-80 rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
-              alt="Marketing work"
+              src="/PSAMA_AVA.jpeg"
+              alt="Ava D'Alessandro"
               fill
               className="object-cover"
             />
@@ -76,42 +77,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Three Traits ── */}
+      {/* ── My Passion ── */}
       <section className="bg-cream py-24">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
-            What I Bring
+            My Passion
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-center mb-16">
-            My Approach
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-center mb-8">
+            Penn State AMA
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: "✦",
-                title: "Strategic & Creative Marketer",
-                body: "Experience across digital campaigns, traditional media, and real-time brand partnerships that drive measurable results.",
-              },
-              {
-                icon: "◈",
-                title: "Bilingual Storyteller",
-                body: "Fluent in English & Spanish with a deep understanding of brand identity, creator voice, and cultural nuance.",
-              },
-              {
-                icon: "◉",
-                title: "Globally Minded & Adaptable",
-                body: "Bringing curiosity, care, and versatility to high-impact campaigns across diverse markets and platforms.",
-              },
-            ].map(({ icon, title, body }) => (
-              <div
-                key={title}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200"
-              >
-                <div className="text-pink text-3xl mb-5">{icon}</div>
-                <h3 className="font-serif text-xl font-bold mb-3">{title}</h3>
-                <p className="text-dark/60 leading-relaxed">{body}</p>
-              </div>
-            ))}
+          <p className="text-dark/70 text-lg leading-relaxed text-center max-w-3xl mx-auto mb-16">
+            As President of the Penn State American Marketing Association (PSAMA), Ava leads one of
+            Penn State&apos;s most dynamic student organizations — driving creative campaigns, fostering
+            industry connections, and building a thriving community of passionate marketers. From
+            large-scale events to social content that resonates, PSAMA is where Ava&apos;s love for
+            marketing comes to life.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8 items-start">
+            <InstagramReel
+              permalink="https://www.instagram.com/reel/DWEqgtYDmJk/"
+              title="ICC 2026"
+            />
+            <InstagramReel
+              permalink="https://www.instagram.com/reel/DVJcRIhjiWC/"
+              title="THON 2026"
+            />
+            <InstagramReel
+              permalink="https://www.instagram.com/reel/DBZeGhZxV-2/"
+              title="Pumpkin Painting"
+            />
           </div>
         </div>
       </section>
@@ -120,12 +114,19 @@ export default function Home() {
       <section className="bg-dark py-24">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-pink text-sm font-semibold tracking-[0.3em] uppercase mb-4 text-center">
-            Reel
+            I&apos;d love to show you what I've done!
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white text-center mb-12">
             Watch My Work
           </h2>
-          <VideoPlaceholder label="Campaign Reel — Coming Soon" />
+          <div className="relative w-full h-[32rem] rounded-2xl overflow-hidden">
+            <Image
+              src="/White_Shirt_Photo.jpg"
+              alt="Campaign photo"
+              fill
+              className="object-cover"
+            />
+          </div>
           <div className="text-center mt-10">
             <Link
               href="/work"

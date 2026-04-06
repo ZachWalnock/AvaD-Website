@@ -1,7 +1,6 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { useCallback } from "react";
 
@@ -17,9 +16,7 @@ interface ImageCarouselProps {
 }
 
 export default function ImageCarousel({ images, placeholder }: ImageCarouselProps) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 3500, stopOnInteraction: true }),
-  ]);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
