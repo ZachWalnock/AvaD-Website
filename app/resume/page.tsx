@@ -141,7 +141,7 @@ export default function Resume() {
                 GPA: 3.8 / 4.00
               </span>
               <span className="inline-block border border-pink/30 text-dark/60 font-medium text-sm px-4 py-2 rounded-full">
-                Dean's List — 5/5 Semesters
+                Dean&apos;s List — 5/5 Semesters
               </span>
             </div>
           </div>

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-dark text-white/70 py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-serif text-lg text-white font-semibold">
-          Ava D'Alessandro
+          Ava D&apos;Alessandro
         </p>
         <div className="flex items-center gap-5">
           <Link
@@ -52,7 +52,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="text-xs text-white/40">
-          © {new Date().getFullYear()} Ava D'Alessandro
+          © {new Date().getFullYear()} Ava D&apos;Alessandro
         </p>
       </div>
     </footer>

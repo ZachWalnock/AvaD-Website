@@ -49,11 +49,11 @@ export default function Contact() {
           {/* Left — Info */}
           <div>
             <h2 className="font-serif text-3xl font-bold mb-6">
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <p className="text-dark/70 text-lg leading-relaxed mb-10">
               Whether you have a project in mind, want to collaborate, or just
-              want to say hi — I'd love to hear from you.
+              want to say hi — I&apos;d love to hear from you.
             </p>
 
             <div className="space-y-6">
@@ -108,7 +108,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="font-serif text-2xl font-bold">Message Sent!</h3>
-                <p className="text-dark/60">Thanks for reaching out — I'll get back to you soon.</p>
+                <p className="text-dark/60">Thanks for reaching out — I&apos;ll get back to you soon.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
