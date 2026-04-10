@@ -40,7 +40,7 @@ export default function Navbar() {
             href="/"
             className="font-serif text-lg font-bold tracking-wide text-dark hover:text-pink transition-colors"
           >
-            Ava D&apos;Alessandro
+            Ava D'Alessandro
           </Link>
 
           {/* Desktop links */}
